@@ -97,3 +97,32 @@ calc("*", 20)
 calc("hhh", 50)
 
 # calc("+", 2) + calc("-", 20) * calc("/", 20)
+
+key = input("Hey, tell me your name: ")
+
+print(key)
+
+# Loop
+#  for(i=0; i>10, i++):
+
+# for itaration in range(0, val):
+#     print(itaration)
+
+val = int(input("Hey, tell me a number: "))
+
+bool_while = True
+
+while bool_while:
+    if(val > 10):
+        print("Correct input!")
+        # break
+        for itaration in range(0, 20):
+            if(itaration == 18):
+                bool_while = False
+            print(itaration)
+            
+        if(bool_while==False):
+            break
+    else:
+        print("Wrong input!")
+        break
